@@ -23,7 +23,8 @@ const menu_items = [
   { path: '/preview/drawer', label: '抽屉', en: 'Drawer' },
   { path: '/preview/popover', label: '气泡卡片', en: 'Popover' },
   { path: '/preview/card', label: '卡片', en: 'Card' },
-  { path: '/preview/alert', label: '警告提示', en: 'Alert' }
+  { path: '/preview/alert', label: '警告提示', en: 'Alert' },
+  { path: '/preview/collapse', label: '折叠面板', en: 'Collapse' }
 ]
 </script>
 
