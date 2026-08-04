@@ -15,7 +15,8 @@ const menu_items = [
   { path: '/preview/slider', label: '滑块', en: 'Slider' },
   { path: '/preview/progress', label: '进度条', en: 'Progress' },
   { path: '/preview/tag', label: '标签', en: 'Tag' },
-  { path: '/preview/badge', label: '徽标', en: 'Badge' }
+  { path: '/preview/badge', label: '徽标', en: 'Badge' },
+  { path: '/preview/tooltip', label: '文字提示', en: 'Tooltip' }
 ]
 </script>
 
