@@ -24,6 +24,7 @@ import CardShowcase from '@/components/CardShowcase.vue'
 import AlertShowcase from '@/components/AlertShowcase.vue'
 import CollapseShowcase from '@/components/CollapseShowcase.vue'
 import LoadingShowcase from '@/components/LoadingShowcase.vue'
+import EmptyShowcase from '@/components/EmptyShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -58,7 +59,8 @@ const router = createRouter({
         { path: 'card', name: 'preview-card', component: CardShowcase, meta: { title: '卡片' } },
         { path: 'alert', name: 'preview-alert', component: AlertShowcase, meta: { title: '警告提示' } },
         { path: 'collapse', name: 'preview-collapse', component: CollapseShowcase, meta: { title: '折叠面板' } },
-        { path: 'loading', name: 'preview-loading', component: LoadingShowcase, meta: { title: '加载' } }
+        { path: 'loading', name: 'preview-loading', component: LoadingShowcase, meta: { title: '加载' } },
+        { path: 'empty', name: 'preview-empty', component: EmptyShowcase, meta: { title: '空状态' } }
       ]
     }
   ]

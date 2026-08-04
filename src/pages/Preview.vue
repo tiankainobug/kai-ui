@@ -25,7 +25,8 @@ const menu_items = [
   { path: '/preview/card', label: '卡片', en: 'Card' },
   { path: '/preview/alert', label: '警告提示', en: 'Alert' },
   { path: '/preview/collapse', label: '折叠面板', en: 'Collapse' },
-  { path: '/preview/loading', label: '加载', en: 'Loading' }
+  { path: '/preview/loading', label: '加载', en: 'Loading' },
+  { path: '/preview/empty', label: '空状态', en: 'Empty' }
 ]
 </script>
 
