@@ -19,6 +19,7 @@ import ModalShowcase from '@/components/ModalShowcase.vue'
 import MessageShowcase from '@/components/MessageShowcase.vue'
 import TabsShowcase from '@/components/TabsShowcase.vue'
 import DrawerShowcase from '@/components/DrawerShowcase.vue'
+import PopoverShowcase from '@/components/PopoverShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -48,7 +49,8 @@ const router = createRouter({
         { path: 'modal', name: 'preview-modal', component: ModalShowcase, meta: { title: '对话框' } },
         { path: 'message', name: 'preview-message', component: MessageShowcase, meta: { title: '消息提示' } },
         { path: 'tabs', name: 'preview-tabs', component: TabsShowcase, meta: { title: '标签页' } },
-        { path: 'drawer', name: 'preview-drawer', component: DrawerShowcase, meta: { title: '抽屉' } }
+        { path: 'drawer', name: 'preview-drawer', component: DrawerShowcase, meta: { title: '抽屉' } },
+        { path: 'popover', name: 'preview-popover', component: PopoverShowcase, meta: { title: '气泡卡片' } }
       ]
     }
   ]

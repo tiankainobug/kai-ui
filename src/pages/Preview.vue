@@ -20,7 +20,8 @@ const menu_items = [
   { path: '/preview/modal', label: '对话框', en: 'Modal' },
   { path: '/preview/message', label: '消息提示', en: 'Message' },
   { path: '/preview/tabs', label: '标签页', en: 'Tabs' },
-  { path: '/preview/drawer', label: '抽屉', en: 'Drawer' }
+  { path: '/preview/drawer', label: '抽屉', en: 'Drawer' },
+  { path: '/preview/popover', label: '气泡卡片', en: 'Popover' }
 ]
 </script>
 
