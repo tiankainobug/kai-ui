@@ -3,6 +3,7 @@ import Intro from '@/pages/Intro.vue'
 import Preview from '@/pages/Preview.vue'
 import ButtonShowcase from '@/components/ButtonShowcase.vue'
 import InputShowcase from '@/components/InputShowcase.vue'
+import ScrollbarShowcase from '@/components/ScrollbarShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -16,7 +17,8 @@ const router = createRouter({
       redirect: '/preview/button',
       children: [
         { path: 'button', name: 'preview-button', component: ButtonShowcase, meta: { title: '按钮' } },
-        { path: 'input', name: 'preview-input', component: InputShowcase, meta: { title: '输入框' } }
+        { path: 'input', name: 'preview-input', component: InputShowcase, meta: { title: '输入框' } },
+        { path: 'scrollbar', name: 'preview-scrollbar', component: ScrollbarShowcase, meta: { title: '滚动条' } }
       ]
     }
   ]

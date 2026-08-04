@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 // 左侧组件菜单(新增组件时在此追加一项即可)
 const menu_items = [
   { path: '/preview/button', label: '按钮', en: 'Button' },
-  { path: '/preview/input', label: '输入框', en: 'Input' }
+  { path: '/preview/input', label: '输入框', en: 'Input' },
+  { path: '/preview/scrollbar', label: '滚动条', en: 'Scrollbar' }
 ]
 </script>
 
