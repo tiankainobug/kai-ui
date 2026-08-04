@@ -13,7 +13,8 @@ const menu_items = [
   { path: '/preview/switch', label: '开关', en: 'Switch' },
   { path: '/preview/select', label: '下拉选择', en: 'Select' },
   { path: '/preview/slider', label: '滑块', en: 'Slider' },
-  { path: '/preview/progress', label: '进度条', en: 'Progress' }
+  { path: '/preview/progress', label: '进度条', en: 'Progress' },
+  { path: '/preview/tag', label: '标签', en: 'Tag' }
 ]
 </script>
 
