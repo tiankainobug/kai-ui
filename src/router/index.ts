@@ -20,6 +20,7 @@ import MessageShowcase from '@/components/MessageShowcase.vue'
 import TabsShowcase from '@/components/TabsShowcase.vue'
 import DrawerShowcase from '@/components/DrawerShowcase.vue'
 import PopoverShowcase from '@/components/PopoverShowcase.vue'
+import CardShowcase from '@/components/CardShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -50,7 +51,8 @@ const router = createRouter({
         { path: 'message', name: 'preview-message', component: MessageShowcase, meta: { title: '消息提示' } },
         { path: 'tabs', name: 'preview-tabs', component: TabsShowcase, meta: { title: '标签页' } },
         { path: 'drawer', name: 'preview-drawer', component: DrawerShowcase, meta: { title: '抽屉' } },
-        { path: 'popover', name: 'preview-popover', component: PopoverShowcase, meta: { title: '气泡卡片' } }
+        { path: 'popover', name: 'preview-popover', component: PopoverShowcase, meta: { title: '气泡卡片' } },
+        { path: 'card', name: 'preview-card', component: CardShowcase, meta: { title: '卡片' } }
       ]
     }
   ]

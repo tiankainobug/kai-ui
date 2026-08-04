@@ -21,7 +21,8 @@ const menu_items = [
   { path: '/preview/message', label: '消息提示', en: 'Message' },
   { path: '/preview/tabs', label: '标签页', en: 'Tabs' },
   { path: '/preview/drawer', label: '抽屉', en: 'Drawer' },
-  { path: '/preview/popover', label: '气泡卡片', en: 'Popover' }
+  { path: '/preview/popover', label: '气泡卡片', en: 'Popover' },
+  { path: '/preview/card', label: '卡片', en: 'Card' }
 ]
 </script>
 
