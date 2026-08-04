@@ -160,7 +160,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 进度条 | Progress | progress | 线形/环形，渐变发光，支持百分比内显 |
 | [x] | 标签 | Tag | tag | 多色，可选中/可关闭/可勾选 |
 | [x] | 徽标 | Badge | badge | 数字/点状角标，支持溢出省略 |
-| [ ] | 文字提示 | Tooltip | tooltip | hover 气泡，多方向定位 |
+| [x] | 文字提示 | Tooltip | tooltip | hover 气泡，多方向定位 |
 | [ ] | 对话框 | Modal | modal | 模态弹窗，自定义内容/确认取消/遮罩 |
 | [ ] | 消息提示 | Message | message | 顶部全局消息，info/success/warning/error |
 | [ ] | 标签页 | Tabs | tabs | 可切换页签，线条/卡片两种风格 |
@@ -207,4 +207,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Progress | feat(progress): 添加赛博朋克风格进度条组件及预览页面 | 线形/环形/条纹/状态
 2026-08-04 | Tag | feat(tag): 添加赛博朋克风格标签组件及预览页面 | 多色/可勾选/可关闭/三风格
 2026-08-04 | Badge | feat(badge): 添加赛博朋克风格徽标组件及预览页面 | 数字/点状/溢出省略/偏移
+2026-08-04 | Tooltip | feat(tooltip): 添加赛博朋克风格文字提示组件及预览页面 | hover/click/四方向/箭头
 
