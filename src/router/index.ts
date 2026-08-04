@@ -16,6 +16,7 @@ import TagShowcase from '@/components/TagShowcase.vue'
 import BadgeShowcase from '@/components/BadgeShowcase.vue'
 import TooltipShowcase from '@/components/TooltipShowcase.vue'
 import ModalShowcase from '@/components/ModalShowcase.vue'
+import MessageShowcase from '@/components/MessageShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -42,7 +43,8 @@ const router = createRouter({
         { path: 'tag', name: 'preview-tag', component: TagShowcase, meta: { title: '标签' } },
         { path: 'badge', name: 'preview-badge', component: BadgeShowcase, meta: { title: '徽标' } },
         { path: 'tooltip', name: 'preview-tooltip', component: TooltipShowcase, meta: { title: '文字提示' } },
-        { path: 'modal', name: 'preview-modal', component: ModalShowcase, meta: { title: '对话框' } }
+        { path: 'modal', name: 'preview-modal', component: ModalShowcase, meta: { title: '对话框' } },
+        { path: 'message', name: 'preview-message', component: MessageShowcase, meta: { title: '消息提示' } }
       ]
     }
   ]

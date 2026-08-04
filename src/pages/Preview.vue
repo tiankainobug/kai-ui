@@ -17,7 +17,8 @@ const menu_items = [
   { path: '/preview/tag', label: '标签', en: 'Tag' },
   { path: '/preview/badge', label: '徽标', en: 'Badge' },
   { path: '/preview/tooltip', label: '文字提示', en: 'Tooltip' },
-  { path: '/preview/modal', label: '对话框', en: 'Modal' }
+  { path: '/preview/modal', label: '对话框', en: 'Modal' },
+  { path: '/preview/message', label: '消息提示', en: 'Message' }
 ]
 </script>
 
