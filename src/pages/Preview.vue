@@ -7,7 +7,8 @@ const menu_items = [
   { path: '/preview/input', label: '输入框', en: 'Input' },
   { path: '/preview/scrollbar', label: '滚动条', en: 'Scrollbar' },
   { path: '/preview/checkbox', label: '多选框', en: 'Checkbox' },
-  { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' }
+  { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' },
+  { path: '/preview/date-time-picker', label: '日期时间选择器', en: 'DateTimePicker' }
 ]
 </script>
 
@@ -75,8 +76,9 @@ const menu_items = [
 .preview-menu__item {
   position: relative;
   display: flex;
-  align-items: center;
-  gap: var(--space-sm);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
   padding: 10px 12px;
   border-radius: var(--radius-sm);
   color: var(--text-secondary);
@@ -116,13 +118,15 @@ const menu_items = [
 }
 
 .preview-menu__label {
-  flex: 1;
+  white-space: nowrap;
+  line-height: 1.2;
 }
 
 .preview-menu__en {
   font-size: 11px;
   color: var(--text-muted);
   letter-spacing: 1px;
+  line-height: 1.2;
 }
 .preview-menu__item.router-link-active .preview-menu__en {
   color: var(--neon-cyan);
@@ -151,6 +155,7 @@ const menu_items = [
   }
   .preview-menu__item {
     white-space: nowrap;
+    flex-shrink: 0;
   }
 }
 </style>

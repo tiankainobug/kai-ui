@@ -6,6 +6,7 @@ import InputShowcase from '@/components/InputShowcase.vue'
 import ScrollbarShowcase from '@/components/ScrollbarShowcase.vue'
 import CheckboxShowcase from '@/components/CheckboxShowcase.vue'
 import DatePickerShowcase from '@/components/DatePickerShowcase.vue'
+import DateTimePickerShowcase from '@/components/DateTimePickerShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -22,7 +23,8 @@ const router = createRouter({
         { path: 'input', name: 'preview-input', component: InputShowcase, meta: { title: '输入框' } },
         { path: 'scrollbar', name: 'preview-scrollbar', component: ScrollbarShowcase, meta: { title: '滚动条' } },
         { path: 'checkbox', name: 'preview-checkbox', component: CheckboxShowcase, meta: { title: '多选框' } },
-        { path: 'date-picker', name: 'preview-date-picker', component: DatePickerShowcase, meta: { title: '日期选择器' } }
+        { path: 'date-picker', name: 'preview-date-picker', component: DatePickerShowcase, meta: { title: '日期选择器' } },
+        { path: 'date-time-picker', name: 'preview-date-time-picker', component: DateTimePickerShowcase, meta: { title: '日期时间选择器' } }
       ]
     }
   ]
