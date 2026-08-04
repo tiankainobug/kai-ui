@@ -177,7 +177,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 加载 | Loading | loading | 指示器，全屏/局部/指令式 |
 | [x] | 空状态 | Empty | empty | 无数据占位，自定义图文 |
 | [x] | 骨架屏 | Skeleton | skeleton | 加载占位，多形状组合 |
-| [ ] | 头像 | Avatar | avatar | 图片/文字，形状/尺寸/叠加 |
+| [x] | 头像 | Avatar | avatar | 图片/文字，形状/尺寸/叠加 |
 | [ ] | 评分 | Rate | rate | 星级评分，支持半选/只读 |
 
 ### P2 · 进阶
@@ -219,4 +219,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Loading | feat(loading): 添加赛博朋克风格加载组件及预览页面 | ring/dots/bars/全屏/局部/v-loading指令
 2026-08-04 | Empty | feat(empty): 添加赛博朋克风格空状态组件及预览页面 | SVG预设插图/自定义图文/操作区
 2026-08-04 | Skeleton | feat(skeleton): 添加赛博朋克风格骨架屏组件及预览页面 | text/circle/rect/扫描流光/组合
+2026-08-04 | Avatar | feat(avatar): 添加赛博朋克风格头像组件及预览页面 | 图片/文字/图标/形状/尺寸/徽标叠加
 
