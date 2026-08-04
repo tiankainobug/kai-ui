@@ -28,6 +28,7 @@ import EmptyShowcase from '@/components/EmptyShowcase.vue'
 import SkeletonShowcase from '@/components/SkeletonShowcase.vue'
 import AvatarShowcase from '@/components/AvatarShowcase.vue'
 import RateShowcase from '@/components/RateShowcase.vue'
+import PaginationShowcase from '@/components/PaginationShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -66,7 +67,8 @@ const router = createRouter({
         { path: 'empty', name: 'preview-empty', component: EmptyShowcase, meta: { title: '空状态' } },
         { path: 'skeleton', name: 'preview-skeleton', component: SkeletonShowcase, meta: { title: '骨架屏' } },
         { path: 'avatar', name: 'preview-avatar', component: AvatarShowcase, meta: { title: '头像' } },
-        { path: 'rate', name: 'preview-rate', component: RateShowcase, meta: { title: '评分' } }
+        { path: 'rate', name: 'preview-rate', component: RateShowcase, meta: { title: '评分' } },
+        { path: 'pagination', name: 'preview-pagination', component: PaginationShowcase, meta: { title: '分页' } }
       ]
     }
   ]
