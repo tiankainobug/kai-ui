@@ -170,7 +170,7 @@ const xxx_props: Record<string, string>[] = [...]
 | 状态 | 组件 | 英文 | 路由 | 说明 |
 | --- | --- | --- | --- | --- |
 | [x] | 抽屉 | Drawer | drawer | 侧边滑出，左/右/上/下方向 |
-| [ ] | 气泡卡片 | Popover | popover | 承载内容的气泡，click/hover 触发 |
+| [x] | 气泡卡片 | Popover | popover | 承载内容的气泡，click/hover 触发 |
 | [ ] | 卡片 | Card | card | 内容容器，标题/操作区/阴影 |
 | [ ] | 警告提示 | Alert | alert | info/success/warning/error，可关闭 |
 | [ ] | 折叠面板 | Collapse | collapse | 手风琴/可展开多面板 |
@@ -212,4 +212,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Message | feat(message): 添加赛博朋克风格消息提示组件及预览页面 | 命令式API/四类型/自动消失/堆叠
 2026-08-04 | Tabs | feat(tabs): 添加赛博朋克风格标签页组件及预览页面 | 线条/卡片/滑动指示条/具名插槽
 2026-08-04 | Drawer | feat(drawer): 添加赛博朋克风格抽屉组件及预览页面 | 四方向滑出/遮罩/ESC/滚动锁
+2026-08-04 | Popover | feat(popover): 添加赛博朋克风格气泡卡片组件及预览页面 | 标题+内容/click/hover/四方向
 
