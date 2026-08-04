@@ -174,7 +174,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 卡片 | Card | card | 内容容器，标题/操作区/阴影 |
 | [x] | 警告提示 | Alert | alert | info/success/warning/error，可关闭 |
 | [x] | 折叠面板 | Collapse | collapse | 手风琴/可展开多面板 |
-| [ ] | 加载 | Loading | loading | 指示器，全屏/局部/指令式 |
+| [x] | 加载 | Loading | loading | 指示器，全屏/局部/指令式 |
 | [ ] | 空状态 | Empty | empty | 无数据占位，自定义图文 |
 | [ ] | 骨架屏 | Skeleton | skeleton | 加载占位，多形状组合 |
 | [ ] | 头像 | Avatar | avatar | 图片/文字，形状/尺寸/叠加 |
@@ -216,4 +216,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Card | feat(card): 添加赛博朋克风格卡片组件及预览页面 | 标题/操作区/阴影/悬浮/四角准星
 2026-08-04 | Alert | feat(alert): 添加赛博朋克风格警告提示组件及预览页面 | 四类型/可关闭/banner/图标
 2026-08-04 | Collapse | feat(collapse): 添加赛博朋克风格折叠面板组件及预览页面 | 手风琴/多面板/grid高度动画
+2026-08-04 | Loading | feat(loading): 添加赛博朋克风格加载组件及预览页面 | ring/dots/bars/全屏/局部/v-loading指令
 
