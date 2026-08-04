@@ -5,7 +5,9 @@ import { RouterLink, RouterView } from 'vue-router'
 const menu_items = [
   { path: '/preview/button', label: '按钮', en: 'Button' },
   { path: '/preview/input', label: '输入框', en: 'Input' },
-  { path: '/preview/scrollbar', label: '滚动条', en: 'Scrollbar' }
+  { path: '/preview/scrollbar', label: '滚动条', en: 'Scrollbar' },
+  { path: '/preview/checkbox', label: '多选框', en: 'Checkbox' },
+  { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' }
 ]
 </script>
 
