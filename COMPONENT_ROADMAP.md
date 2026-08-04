@@ -162,7 +162,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 徽标 | Badge | badge | 数字/点状角标，支持溢出省略 |
 | [x] | 文字提示 | Tooltip | tooltip | hover 气泡，多方向定位 |
 | [x] | 对话框 | Modal | modal | 模态弹窗，自定义内容/确认取消/遮罩 |
-| [ ] | 消息提示 | Message | message | 顶部全局消息，info/success/warning/error |
+| [x] | 消息提示 | Message | message | 顶部全局消息，info/success/warning/error |
 | [ ] | 标签页 | Tabs | tabs | 可切换页签，线条/卡片两种风格 |
 
 ### P1 · 常用
@@ -209,4 +209,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Badge | feat(badge): 添加赛博朋克风格徽标组件及预览页面 | 数字/点状/溢出省略/偏移
 2026-08-04 | Tooltip | feat(tooltip): 添加赛博朋克风格文字提示组件及预览页面 | hover/click/四方向/箭头
 2026-08-04 | Modal | feat(modal): 添加赛博朋克风格对话框组件及预览页面 | 遮罩/确认取消/ESC/滚动锁/四角准星
+2026-08-04 | Message | feat(message): 添加赛博朋克风格消息提示组件及预览页面 | 命令式API/四类型/自动消失/堆叠
 
