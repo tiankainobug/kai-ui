@@ -21,6 +21,7 @@ import TabsShowcase from '@/components/TabsShowcase.vue'
 import DrawerShowcase from '@/components/DrawerShowcase.vue'
 import PopoverShowcase from '@/components/PopoverShowcase.vue'
 import CardShowcase from '@/components/CardShowcase.vue'
+import AlertShowcase from '@/components/AlertShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -52,7 +53,8 @@ const router = createRouter({
         { path: 'tabs', name: 'preview-tabs', component: TabsShowcase, meta: { title: '标签页' } },
         { path: 'drawer', name: 'preview-drawer', component: DrawerShowcase, meta: { title: '抽屉' } },
         { path: 'popover', name: 'preview-popover', component: PopoverShowcase, meta: { title: '气泡卡片' } },
-        { path: 'card', name: 'preview-card', component: CardShowcase, meta: { title: '卡片' } }
+        { path: 'card', name: 'preview-card', component: CardShowcase, meta: { title: '卡片' } },
+        { path: 'alert', name: 'preview-alert', component: AlertShowcase, meta: { title: '警告提示' } }
       ]
     }
   ]
