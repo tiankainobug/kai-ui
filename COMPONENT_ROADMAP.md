@@ -157,7 +157,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 开关 | Switch | switch | 开/关切换，支持加载/禁用/尺寸/颜色 |
 | [x] | 下拉选择 | Select | select | 单选/多选/可搜索/可清空 |
 | [x] | 滑块 | Slider | slider | 数值区间滑动，支持步进/范围 |
-| [ ] | 进度条 | Progress | progress | 线形/环形，渐变发光，支持百分比内显 |
+| [x] | 进度条 | Progress | progress | 线形/环形，渐变发光，支持百分比内显 |
 | [ ] | 标签 | Tag | tag | 多色，可选中/可关闭/可勾选 |
 | [ ] | 徽标 | Badge | badge | 数字/点状角标，支持溢出省略 |
 | [ ] | 文字提示 | Tooltip | tooltip | hover 气泡，多方向定位 |
@@ -204,4 +204,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Switch | feat(switch): 添加赛博朋克风格开关组件及预览页面 | 首个按路线图实现的组件
 2026-08-04 | Select | feat(select): 添加赛博朋克风格下拉选择组件及预览页面 | 单选/多选/可搜索/可清空
 2026-08-04 | Slider | feat(slider): 添加赛博朋克风格滑块组件及预览页面 | 单值/范围双滑块/步进
+2026-08-04 | Progress | feat(progress): 添加赛博朋克风格进度条组件及预览页面 | 线形/环形/条纹/状态
 
