@@ -11,7 +11,8 @@ const menu_items = [
   { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' },
   { path: '/preview/date-time-picker', label: '日期时间选择器', en: 'DateTimePicker' },
   { path: '/preview/switch', label: '开关', en: 'Switch' },
-  { path: '/preview/select', label: '下拉选择', en: 'Select' }
+  { path: '/preview/select', label: '下拉选择', en: 'Select' },
+  { path: '/preview/slider', label: '滑块', en: 'Slider' }
 ]
 </script>
 
