@@ -31,7 +31,8 @@ const menu_items = [
   { path: '/preview/avatar', label: '头像', en: 'Avatar' },
   { path: '/preview/rate', label: '评分', en: 'Rate' },
   { path: '/preview/pagination', label: '分页', en: 'Pagination' },
-  { path: '/preview/steps', label: '步骤条', en: 'Steps' }
+  { path: '/preview/steps', label: '步骤条', en: 'Steps' },
+  { path: '/preview/breadcrumb', label: '面包屑', en: 'Breadcrumb' }
 ]
 </script>
 

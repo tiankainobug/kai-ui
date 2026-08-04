@@ -30,6 +30,7 @@ import AvatarShowcase from '@/components/AvatarShowcase.vue'
 import RateShowcase from '@/components/RateShowcase.vue'
 import PaginationShowcase from '@/components/PaginationShowcase.vue'
 import StepsShowcase from '@/components/StepsShowcase.vue'
+import BreadcrumbShowcase from '@/components/BreadcrumbShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -70,7 +71,8 @@ const router = createRouter({
         { path: 'avatar', name: 'preview-avatar', component: AvatarShowcase, meta: { title: '头像' } },
         { path: 'rate', name: 'preview-rate', component: RateShowcase, meta: { title: '评分' } },
         { path: 'pagination', name: 'preview-pagination', component: PaginationShowcase, meta: { title: '分页' } },
-        { path: 'steps', name: 'preview-steps', component: StepsShowcase, meta: { title: '步骤条' } }
+        { path: 'steps', name: 'preview-steps', component: StepsShowcase, meta: { title: '步骤条' } },
+        { path: 'breadcrumb', name: 'preview-breadcrumb', component: BreadcrumbShowcase, meta: { title: '面包屑' } }
       ]
     }
   ]
