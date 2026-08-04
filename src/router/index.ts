@@ -13,6 +13,7 @@ import SelectShowcase from '@/components/SelectShowcase.vue'
 import SliderShowcase from '@/components/SliderShowcase.vue'
 import ProgressShowcase from '@/components/ProgressShowcase.vue'
 import TagShowcase from '@/components/TagShowcase.vue'
+import BadgeShowcase from '@/components/BadgeShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -36,7 +37,8 @@ const router = createRouter({
         { path: 'select', name: 'preview-select', component: SelectShowcase, meta: { title: '下拉选择' } },
         { path: 'slider', name: 'preview-slider', component: SliderShowcase, meta: { title: '滑块' } },
         { path: 'progress', name: 'preview-progress', component: ProgressShowcase, meta: { title: '进度条' } },
-        { path: 'tag', name: 'preview-tag', component: TagShowcase, meta: { title: '标签' } }
+        { path: 'tag', name: 'preview-tag', component: TagShowcase, meta: { title: '标签' } },
+        { path: 'badge', name: 'preview-badge', component: BadgeShowcase, meta: { title: '徽标' } }
       ]
     }
   ]
