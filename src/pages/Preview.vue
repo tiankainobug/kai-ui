@@ -19,7 +19,8 @@ const menu_items = [
   { path: '/preview/tooltip', label: '文字提示', en: 'Tooltip' },
   { path: '/preview/modal', label: '对话框', en: 'Modal' },
   { path: '/preview/message', label: '消息提示', en: 'Message' },
-  { path: '/preview/tabs', label: '标签页', en: 'Tabs' }
+  { path: '/preview/tabs', label: '标签页', en: 'Tabs' },
+  { path: '/preview/drawer', label: '抽屉', en: 'Drawer' }
 ]
 </script>
 
