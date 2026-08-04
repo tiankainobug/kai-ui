@@ -9,6 +9,7 @@ import RadioShowcase from '@/components/RadioShowcase.vue'
 import DatePickerShowcase from '@/components/DatePickerShowcase.vue'
 import DateTimePickerShowcase from '@/components/DateTimePickerShowcase.vue'
 import SwitchShowcase from '@/components/SwitchShowcase.vue'
+import SelectShowcase from '@/components/SelectShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -28,7 +29,8 @@ const router = createRouter({
         { path: 'radio', name: 'preview-radio', component: RadioShowcase, meta: { title: '单选框' } },
         { path: 'date-picker', name: 'preview-date-picker', component: DatePickerShowcase, meta: { title: '日期选择器' } },
         { path: 'date-time-picker', name: 'preview-date-time-picker', component: DateTimePickerShowcase, meta: { title: '日期时间选择器' } },
-        { path: 'switch', name: 'preview-switch', component: SwitchShowcase, meta: { title: '开关' } }
+        { path: 'switch', name: 'preview-switch', component: SwitchShowcase, meta: { title: '开关' } },
+        { path: 'select', name: 'preview-select', component: SelectShowcase, meta: { title: '下拉选择' } }
       ]
     }
   ]

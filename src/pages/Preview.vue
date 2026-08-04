@@ -10,7 +10,8 @@ const menu_items = [
   { path: '/preview/radio', label: '单选框', en: 'Radio' },
   { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' },
   { path: '/preview/date-time-picker', label: '日期时间选择器', en: 'DateTimePicker' },
-  { path: '/preview/switch', label: '开关', en: 'Switch' }
+  { path: '/preview/switch', label: '开关', en: 'Switch' },
+  { path: '/preview/select', label: '下拉选择', en: 'Select' }
 ]
 </script>
 
