@@ -26,7 +26,8 @@ const menu_items = [
   { path: '/preview/alert', label: '警告提示', en: 'Alert' },
   { path: '/preview/collapse', label: '折叠面板', en: 'Collapse' },
   { path: '/preview/loading', label: '加载', en: 'Loading' },
-  { path: '/preview/empty', label: '空状态', en: 'Empty' }
+  { path: '/preview/empty', label: '空状态', en: 'Empty' },
+  { path: '/preview/skeleton', label: '骨架屏', en: 'Skeleton' }
 ]
 </script>
 
