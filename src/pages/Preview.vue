@@ -9,7 +9,8 @@ const menu_items = [
   { path: '/preview/checkbox', label: '多选框', en: 'Checkbox' },
   { path: '/preview/radio', label: '单选框', en: 'Radio' },
   { path: '/preview/date-picker', label: '日期选择器', en: 'DatePicker' },
-  { path: '/preview/date-time-picker', label: '日期时间选择器', en: 'DateTimePicker' }
+  { path: '/preview/date-time-picker', label: '日期时间选择器', en: 'DateTimePicker' },
+  { path: '/preview/switch', label: '开关', en: 'Switch' }
 ]
 </script>
 
