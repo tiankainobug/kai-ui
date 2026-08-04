@@ -184,7 +184,7 @@ const xxx_props: Record<string, string>[] = [...]
 
 | 状态 | 组件 | 英文 | 路由 | 说明 |
 | --- | --- | --- | --- | --- |
-| [ ] | 分页 | Pagination | pagination | 页码分页器，快速跳转 |
+| [x] | 分页 | Pagination | pagination | 页码分页器，快速跳转 |
 | [ ] | 步骤条 | Steps | steps | 横/纵向步骤流程 |
 | [ ] | 面包屑 | Breadcrumb | breadcrumb | 导航路径，支持图标 |
 | [ ] | 分割线 | Divider | divider | 横/竖，支持文字居中 |
@@ -221,4 +221,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Skeleton | feat(skeleton): 添加赛博朋克风格骨架屏组件及预览页面 | text/circle/rect/扫描流光/组合
 2026-08-04 | Avatar | feat(avatar): 添加赛博朋克风格头像组件及预览页面 | 图片/文字/图标/形状/尺寸/徽标叠加
 2026-08-04 | Rate | feat(rate): 添加赛博朋克风格评分组件及预览页面 | 星级/半选/只读/自定义图标/数量
+2026-08-04 | Pagination | feat(pagination): 添加赛博朋克风格分页组件及预览页面 | 页码/省略号/快速跳转/总数
 
