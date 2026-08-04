@@ -11,6 +11,7 @@ import DateTimePickerShowcase from '@/components/DateTimePickerShowcase.vue'
 import SwitchShowcase from '@/components/SwitchShowcase.vue'
 import SelectShowcase from '@/components/SelectShowcase.vue'
 import SliderShowcase from '@/components/SliderShowcase.vue'
+import ProgressShowcase from '@/components/ProgressShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -32,7 +33,8 @@ const router = createRouter({
         { path: 'date-time-picker', name: 'preview-date-time-picker', component: DateTimePickerShowcase, meta: { title: '日期时间选择器' } },
         { path: 'switch', name: 'preview-switch', component: SwitchShowcase, meta: { title: '开关' } },
         { path: 'select', name: 'preview-select', component: SelectShowcase, meta: { title: '下拉选择' } },
-        { path: 'slider', name: 'preview-slider', component: SliderShowcase, meta: { title: '滑块' } }
+        { path: 'slider', name: 'preview-slider', component: SliderShowcase, meta: { title: '滑块' } },
+        { path: 'progress', name: 'preview-progress', component: ProgressShowcase, meta: { title: '进度条' } }
       ]
     }
   ]
