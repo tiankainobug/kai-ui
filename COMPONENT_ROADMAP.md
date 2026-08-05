@@ -187,7 +187,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 分页 | Pagination | pagination | 页码分页器，快速跳转 |
 | [x] | 步骤条 | Steps | steps | 横/纵向步骤流程 |
 | [x] | 面包屑 | Breadcrumb | breadcrumb | 导航路径，支持图标 |
-| [ ] | 分割线 | Divider | divider | 横/竖，支持文字居中 |
+| [x] | 分割线 | Divider | divider | 横/竖，支持文字居中 |
 | [ ] | 统计数值 | Statistic | statistic | 数字统计，倒计时扩展 |
 | [ ] | 通知 | Notification | notification | 右上角通知卡片，自动关闭 |
 | [ ] | 轮播 | Carousel | carousel | 图片/内容轮播，指示器/箭头 |
@@ -224,4 +224,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Pagination | feat(pagination): 添加赛博朋克风格分页组件及预览页面 | 页码/省略号/快速跳转/总数
 2026-08-04 | Steps | feat(steps): 添加赛博朋克风格步骤条组件及预览页面 | 横纵向/四态/对勾/脉冲
 2026-08-04 | Breadcrumb | feat(breadcrumb): 添加赛博朋克风格面包屑组件及预览页面 | 图标/链接/自定义分隔符
+2026-08-04 | Divider | feat(divider): 添加赛博朋克风格分割线组件及预览页面 | 横纵向/文字居中/虚线/渐变发光
 
