@@ -37,7 +37,8 @@ const menu_items = [
   { path: '/preview/statistic', label: '统计数值', en: 'Statistic' },
   { path: '/preview/notification', label: '通知', en: 'Notification' },
   { path: '/preview/carousel', label: '轮播', en: 'Carousel' },
-  { path: '/preview/timeline', label: '时间线', en: 'Timeline' }
+  { path: '/preview/timeline', label: '时间线', en: 'Timeline' },
+  { path: '/preview/result', label: '结果页', en: 'Result' }
 ]
 </script>
 

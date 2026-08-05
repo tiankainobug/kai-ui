@@ -36,6 +36,7 @@ import StatisticShowcase from '@/components/StatisticShowcase.vue'
 import NotificationShowcase from '@/components/NotificationShowcase.vue'
 import CarouselShowcase from '@/components/CarouselShowcase.vue'
 import TimelineShowcase from '@/components/TimelineShowcase.vue'
+import ResultShowcase from '@/components/ResultShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -82,7 +83,8 @@ const router = createRouter({
         { path: 'statistic', name: 'preview-statistic', component: StatisticShowcase, meta: { title: '统计数值' } },
         { path: 'notification', name: 'preview-notification', component: NotificationShowcase, meta: { title: '通知' } },
         { path: 'carousel', name: 'preview-carousel', component: CarouselShowcase, meta: { title: '轮播' } },
-        { path: 'timeline', name: 'preview-timeline', component: TimelineShowcase, meta: { title: '时间线' } }
+        { path: 'timeline', name: 'preview-timeline', component: TimelineShowcase, meta: { title: '时间线' } },
+        { path: 'result', name: 'preview-result', component: ResultShowcase, meta: { title: '结果页' } }
       ]
     }
   ]
