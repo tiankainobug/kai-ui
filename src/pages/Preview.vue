@@ -33,7 +33,8 @@ const menu_items = [
   { path: '/preview/pagination', label: '分页', en: 'Pagination' },
   { path: '/preview/steps', label: '步骤条', en: 'Steps' },
   { path: '/preview/breadcrumb', label: '面包屑', en: 'Breadcrumb' },
-  { path: '/preview/divider', label: '分割线', en: 'Divider' }
+  { path: '/preview/divider', label: '分割线', en: 'Divider' },
+  { path: '/preview/statistic', label: '统计数值', en: 'Statistic' }
 ]
 </script>
 
