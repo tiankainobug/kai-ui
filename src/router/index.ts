@@ -34,6 +34,7 @@ import BreadcrumbShowcase from '@/components/BreadcrumbShowcase.vue'
 import DividerShowcase from '@/components/DividerShowcase.vue'
 import StatisticShowcase from '@/components/StatisticShowcase.vue'
 import NotificationShowcase from '@/components/NotificationShowcase.vue'
+import CarouselShowcase from '@/components/CarouselShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -78,7 +79,8 @@ const router = createRouter({
         { path: 'breadcrumb', name: 'preview-breadcrumb', component: BreadcrumbShowcase, meta: { title: '面包屑' } },
         { path: 'divider', name: 'preview-divider', component: DividerShowcase, meta: { title: '分割线' } },
         { path: 'statistic', name: 'preview-statistic', component: StatisticShowcase, meta: { title: '统计数值' } },
-        { path: 'notification', name: 'preview-notification', component: NotificationShowcase, meta: { title: '通知' } }
+        { path: 'notification', name: 'preview-notification', component: NotificationShowcase, meta: { title: '通知' } },
+        { path: 'carousel', name: 'preview-carousel', component: CarouselShowcase, meta: { title: '轮播' } }
       ]
     }
   ]

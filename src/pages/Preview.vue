@@ -35,7 +35,8 @@ const menu_items = [
   { path: '/preview/breadcrumb', label: '面包屑', en: 'Breadcrumb' },
   { path: '/preview/divider', label: '分割线', en: 'Divider' },
   { path: '/preview/statistic', label: '统计数值', en: 'Statistic' },
-  { path: '/preview/notification', label: '通知', en: 'Notification' }
+  { path: '/preview/notification', label: '通知', en: 'Notification' },
+  { path: '/preview/carousel', label: '轮播', en: 'Carousel' }
 ]
 </script>
 
