@@ -192,7 +192,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 通知 | Notification | notification | 右上角通知卡片，自动关闭 |
 | [x] | 轮播 | Carousel | carousel | 图片/内容轮播，指示器/箭头 |
 | [x] | 时间线 | Timeline | timeline | 时间轴记录，自定义节点 |
-| [ ] | 结果页 | Result | result | success/error/进行中，带操作 |
+| [x] | 结果页 | Result | result | success/error/进行中，带操作 |
 | [ ] | 分段控制器 | Segmented | segmented | 分段选择，类 iOS 分段 |
 
 ---
@@ -229,4 +229,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Notification | feat(notification): 添加赛博朋克风格通知组件及预览页面 | 命令式API/四类型/右上角堆叠/自动关闭
 2026-08-04 | Carousel | feat(carousel): 添加赛博朋克风格轮播组件及预览页面 | 自动播放/箭头/指示器/hover暂停
 2026-08-04 | Timeline | feat(timeline): 添加赛博朋克风格时间线组件及预览页面 | 时间轴/自定义节点颜色图标
+2026-08-04 | Result | feat(result): 添加赛博朋克风格结果页组件及预览页面 | 四状态/SVG图标/操作区/呼吸动画
 
