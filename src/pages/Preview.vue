@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { ref, watch, nextTick } from 'vue'
+import { RouterLink, RouterView, useRoute } from 'vue-router'
 
 // 左侧组件菜单(新增组件时在此追加一项即可)
 const menu_items = [
@@ -41,6 +42,21 @@ const menu_items = [
   { path: '/preview/result', label: '结果页', en: 'Result' },
   { path: '/preview/segmented', label: '分段控制器', en: 'Segmented' }
 ]
+
+const menu_list_ref = ref<HTMLElement>()
+const route = useRoute()
+
+// 路由切换后把当前选中菜单项滚入视野,避免菜单内部滚动后选中项停在可视区外(刷新/直链进入同样生效)
+watch(
+  () => route.path,
+  async () => {
+    await nextTick()
+    menu_list_ref.value
+      ?.querySelector('.router-link-active')
+      ?.scrollIntoView({ block: 'nearest' })
+  },
+  { immediate: true }
+)
 </script>
 
 <template>
@@ -48,7 +64,7 @@ const menu_items = [
     <!-- 左侧组件菜单 -->
     <aside class="preview-menu">
       <div class="preview-menu__title">// 组件 COMPONENTS</div>
-      <nav class="preview-menu__list">
+      <nav class="preview-menu__list" ref="menu_list_ref">
         <RouterLink
           v-for="item in menu_items"
           :key="item.path"
@@ -81,6 +97,10 @@ const menu_items = [
   top: 84px;
   width: 220px;
   flex-shrink: 0;
+  /* 限制菜单最大高度=视口-header(84px)-底部留白,防止菜单高出视口导致 sticky 失效、底部菜单项看不到 */
+  max-height: calc(100vh - 84px - var(--space-xl));
+  display: flex;
+  flex-direction: column;
   background: var(--bg-panel);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
@@ -102,6 +122,26 @@ const menu_items = [
   display: flex;
   flex-direction: column;
   gap: 4px;
+  flex: 1;
+  min-height: 0; /* 配合 flex 子项,让 overflow 在固定高度容器内生效 */
+  overflow-y: auto;
+  overscroll-behavior: none; /* 菜单滚到顶/底立即停止,不回弹、也不带动外层滚动 */
+  /* 赛博朋克风格自定义滚动条 */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 240, 255, 0.3) transparent;
+}
+.preview-menu__list::-webkit-scrollbar {
+  width: 6px;
+}
+.preview-menu__list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.preview-menu__list::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.3);
+  border-radius: 3px;
+}
+.preview-menu__list::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.5);
 }
 
 .preview-menu__item {
@@ -117,6 +157,7 @@ const menu_items = [
   font-size: 14px;
   transition: all var(--transition-fast);
   overflow: hidden;
+  flex-shrink: 0; /* 防止 flex 列容器空间不足时压缩每项高度,导致内容底部被裁切 */
 }
 
 /* 选中项左侧发光指示条 */

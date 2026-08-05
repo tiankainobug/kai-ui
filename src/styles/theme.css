@@ -82,6 +82,7 @@
 html,
 body {
   height: 100%;
+  overscroll-behavior: none; /* 关闭整页顶/底橡皮筋回弹,到边界立即停止 */
 }
 
 body {
