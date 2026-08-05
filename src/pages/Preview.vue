@@ -38,7 +38,8 @@ const menu_items = [
   { path: '/preview/notification', label: '通知', en: 'Notification' },
   { path: '/preview/carousel', label: '轮播', en: 'Carousel' },
   { path: '/preview/timeline', label: '时间线', en: 'Timeline' },
-  { path: '/preview/result', label: '结果页', en: 'Result' }
+  { path: '/preview/result', label: '结果页', en: 'Result' },
+  { path: '/preview/segmented', label: '分段控制器', en: 'Segmented' }
 ]
 </script>
 

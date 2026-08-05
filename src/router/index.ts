@@ -37,6 +37,7 @@ import NotificationShowcase from '@/components/NotificationShowcase.vue'
 import CarouselShowcase from '@/components/CarouselShowcase.vue'
 import TimelineShowcase from '@/components/TimelineShowcase.vue'
 import ResultShowcase from '@/components/ResultShowcase.vue'
+import SegmentedShowcase from '@/components/SegmentedShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -84,7 +85,8 @@ const router = createRouter({
         { path: 'notification', name: 'preview-notification', component: NotificationShowcase, meta: { title: '通知' } },
         { path: 'carousel', name: 'preview-carousel', component: CarouselShowcase, meta: { title: '轮播' } },
         { path: 'timeline', name: 'preview-timeline', component: TimelineShowcase, meta: { title: '时间线' } },
-        { path: 'result', name: 'preview-result', component: ResultShowcase, meta: { title: '结果页' } }
+        { path: 'result', name: 'preview-result', component: ResultShowcase, meta: { title: '结果页' } },
+        { path: 'segmented', name: 'preview-segmented', component: SegmentedShowcase, meta: { title: '分段控制器' } }
       ]
     }
   ]
