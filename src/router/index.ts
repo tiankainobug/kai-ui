@@ -41,6 +41,10 @@ import SegmentedShowcase from '@/components/SegmentedShowcase.vue'
 
 const router = createRouter({
   history: createWebHistory(),
+  // 切换路由时瞬时回到顶部,避免点完下方菜单后页面仍停在底部而看不到组件展示
+  scrollBehavior() {
+    return { top: 0 }
+  },
   routes: [
     { path: '/', redirect: '/intro' },
     { path: '/intro', name: 'intro', component: Intro, meta: { title: '介绍' } },

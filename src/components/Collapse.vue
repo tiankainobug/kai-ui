@@ -69,7 +69,9 @@ const active_text = computed(() => props.modelValue.length ? props.modelValue.jo
       <!-- 内容区:grid 0fr/1fr 实现无需固定高度的平滑展开 -->
       <div class="kp-collapse__content-wrap" :class="{ 'is-open': is_open(item.name) }">
         <div class="kp-collapse__content">
-          <slot :name="`panel-${item.name}`" />
+          <div class="kp-collapse__content-inner">
+            <slot :name="`panel-${item.name}`" />
+          </div>
         </div>
       </div>
     </div>
@@ -142,12 +144,13 @@ const active_text = computed(() => props.modelValue.length ? props.modelValue.jo
 .kp-collapse__content-wrap.is-open {
   grid-template-rows: 1fr;
 }
+/* grid item:仅裁切,不放 padding(否则 min-content 撑开 track 导致漏出) */
 .kp-collapse__content {
+  min-height: 0;
   overflow: hidden;
-  padding: 0 var(--space-md);
 }
-/* 展开时给内容加内边距 */
-.kp-collapse__content-wrap.is-open .kp-collapse__content {
+/* 内层:承担 padding 与文字样式,被外层裁切 */
+.kp-collapse__content-inner {
   padding: var(--space-md);
   color: var(--text-secondary);
   font-size: 12px;
