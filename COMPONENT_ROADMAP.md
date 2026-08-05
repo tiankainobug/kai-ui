@@ -189,7 +189,7 @@ const xxx_props: Record<string, string>[] = [...]
 | [x] | 面包屑 | Breadcrumb | breadcrumb | 导航路径，支持图标 |
 | [x] | 分割线 | Divider | divider | 横/竖，支持文字居中 |
 | [x] | 统计数值 | Statistic | statistic | 数字统计，倒计时扩展 |
-| [ ] | 通知 | Notification | notification | 右上角通知卡片，自动关闭 |
+| [x] | 通知 | Notification | notification | 右上角通知卡片，自动关闭 |
 | [ ] | 轮播 | Carousel | carousel | 图片/内容轮播，指示器/箭头 |
 | [ ] | 时间线 | Timeline | timeline | 时间轴记录，自定义节点 |
 | [ ] | 结果页 | Result | result | success/error/进行中，带操作 |
@@ -226,4 +226,5 @@ const xxx_props: Record<string, string>[] = [...]
 2026-08-04 | Breadcrumb | feat(breadcrumb): 添加赛博朋克风格面包屑组件及预览页面 | 图标/链接/自定义分隔符
 2026-08-04 | Divider | feat(divider): 添加赛博朋克风格分割线组件及预览页面 | 横纵向/文字居中/虚线/渐变发光
 2026-08-04 | Statistic | feat(statistic): 添加赛博朋克风格统计数值组件及预览页面 | 前后缀/小数精度/倒计时
+2026-08-04 | Notification | feat(notification): 添加赛博朋克风格通知组件及预览页面 | 命令式API/四类型/右上角堆叠/自动关闭
 
